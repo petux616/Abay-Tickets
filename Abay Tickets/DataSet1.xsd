@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="booking" msprop:Generator_TableClassName="bookingDataTable" msprop:Generator_TableVarName="tablebooking" msprop:Generator_TablePropName="booking" msprop:Generator_RowDeletingName="bookingRowDeleting" msprop:Generator_RowChangingName="bookingRowChanging" msprop:Generator_RowEvHandlerName="bookingRowChangeEventHandler" msprop:Generator_RowDeletedName="bookingRowDeleted" msprop:Generator_UserTableName="booking" msprop:Generator_RowChangedName="bookingRowChanged" msprop:Generator_RowEvArgName="bookingRowChangeEvent" msprop:Generator_RowClassName="bookingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="point_x0020_A" msprop:Generator_ColumnVarNameInTable="columnpoint_A" msprop:Generator_ColumnPropNameInRow="point_A" msprop:Generator_ColumnPropNameInTable="point_AColumn" msprop:Generator_UserColumnName="point A" type="xs:string" />
+              <xs:element name="point_x0020_B" msprop:Generator_ColumnVarNameInTable="columnpoint_B" msprop:Generator_ColumnPropNameInRow="point_B" msprop:Generator_ColumnPropNameInTable="point_BColumn" msprop:Generator_UserColumnName="point B" type="xs:string" minOccurs="0" />
+              <xs:element name="Bus_x0020_name" msprop:Generator_ColumnVarNameInTable="columnBus_name" msprop:Generator_ColumnPropNameInRow="Bus_name" msprop:Generator_ColumnPropNameInTable="Bus_nameColumn" msprop:Generator_UserColumnName="Bus name" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Passanger_x0020_name" msprop:Generator_ColumnVarNameInTable="columnPassanger_name" msprop:Generator_ColumnPropNameInRow="Passanger_name" msprop:Generator_ColumnPropNameInTable="Passanger_nameColumn" msprop:Generator_UserColumnName="Passanger name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="bookingKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:booking" />
+      <xs:field xpath="mstns:point_x0020_A" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
